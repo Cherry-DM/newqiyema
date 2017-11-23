@@ -1,0 +1,16 @@
+.kaifa_con{
+	padding:10px 0 0 20px;
+}
+.kaifa_con .kaif{
+	padding:110px 0;
+	background: #fff;
+	text-align: center;
+}
+.kaifa_con .kaif p a{
+	color:#22ac38;
+}
+.kaifa_con .kaif p{
+	position: relative;
+	top:-175px;
+	padding-left: 160px;
+}

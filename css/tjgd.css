@@ -1,0 +1,11 @@
+.gd_con{
+	padding:10px 0 0 20px;
+}
+.gd_con .gd_form{
+	padding:30px 0 0 50px;
+	background: #fff;
+}
+.gd_form form ul li{
+	overflow: hidden;
+	width: 46%;
+}

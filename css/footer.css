@@ -1,0 +1,40 @@
+/*底部 轮播*/
+.b_r_b{
+	margin:10px 0 100px 20px;
+	padding: 20px 0 24px 20px;
+	background: #fff;
+}
+.swiper-container3,.swiper-container4{
+    height: 200px;
+}
+.free .vipzq,.free .tgyx{
+	display: inline-block;
+	margin: 0 0 0 20px;
+	padding: 9px 20px;
+	background: #efefef;
+	color: #666;
+	font-size: 14px;
+	transform: skew(-20deg);
+	cursor: pointer;
+}
+.free .vipzq.active,.free .tgyx.active{
+	background: #07a2e9;
+	color:#fff;
+}
+.free .vipzq p,.free .tgyx p{
+	transform: skew(20deg);
+}
+/*底部*/
+.footer{
+	margin-top:20px;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+}
+.footer p{
+	padding:25px 0 25px 20px;
+	border-top: 1px solid #d2d2d2;
+	background: #edf1f2;
+	color:#999;
+	font-size:14px;
+}

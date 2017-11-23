@@ -1,0 +1,71 @@
+.detail_con{
+	padding:10px 0 0 20px;
+}
+.d_c{
+	background: #fff;
+	padding:25px 0 270px 25px;
+}
+.d_c_o .tit i{
+	border-left: 2px solid #00c968;
+	padding-right: 10px;
+}
+.bob{
+	overflow: hidden;
+	padding-top:20px;
+}
+.bob div{
+	float: left;
+	padding-right: 18%;
+}
+.b_border{
+	border-bottom: 1px dashed #c8e3ef;
+	margin:30px 70px 0 0;
+}
+.bob .user{
+	padding:10px 25px;
+	background: #18b0f6;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+@media(max-width: 1900px){
+	.d_c_o .bob div{
+		padding-right: 16%;
+	}
+}
+@media(max-width: 1770px){
+	.d_c_o .bob div{
+		padding-right: 14%;
+	}
+}
+@media(max-width: 1670px){
+	.d_c_o .bob div{
+		padding-right: 13%;
+	}
+}
+@media(max-width: 1570px){
+	.d_c_o .bob div{
+		padding-right: 12%;
+	}
+}
+@media(max-width: 1510px){
+	.d_c_o .bob div{
+		padding-right: 11%;
+	}
+}
+@media(max-width: 1445px){
+	.d_c_o .bob div{
+		padding-right: 10%;
+	}
+}
+@media(max-width: 1400px){
+	.d_c_o .bob div{
+		padding-right: 9%;
+	}
+}
+@media(max-width: 1265px){
+	.d_c_o .bob div{
+		padding-right: 6%;
+	}
+}
+

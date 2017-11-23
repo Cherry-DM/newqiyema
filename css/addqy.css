@@ -1,0 +1,24 @@
+.qiye ul li{
+	width: 148px;
+	border:1px solid #dcdcdc;
+	float: left;
+	text-align: center;
+	margin:50px 0 0 50px;
+}
+.qiye ul li .font_info{
+	color:#000;
+}
+.qiye ul li a{
+	display: inline-block;
+}
+.qiye ul li a i{
+	margin-top:2px;
+}
+.qiye ul li a:hover{
+	color:#00a0e9;
+}
+.qiye ul li a span{
+	padding-left: 5px;
+}
+
+

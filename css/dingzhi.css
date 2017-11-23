@@ -1,0 +1,16 @@
+.dingzhi_con{
+	padding:10px 0 0 20px;
+}
+.dingzhi_con .dingz{
+	padding:80px 0 0 0;
+	background: #fff;
+	text-align: center;
+}
+.dingzhi_con .dingz p a{
+	color:#00a0e9;
+}
+.dingzhi_con .dingz p{
+	position: relative;
+	top:-220px;
+	padding-left: 160px;
+}

@@ -1,0 +1,80 @@
+.lode_con{
+	padding:10px 0 0 20px;
+}
+.lode_con .lode{
+	padding:130px 0;
+	background: #fff;
+}
+.lode ul li{
+	text-align: center;
+	width: 13%;
+	background: #00c968;
+	border-radius: 10px;
+	margin-left: 6%;
+	float: left;
+}
+.lode ul li img{
+	padding-bottom: 25px;
+}
+.lode ul li .two_p{
+	background: #f4f3f3;
+	line-height: 48px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.lode ul li span{
+	color:#c9c9c9;
+	padding-left:35px;
+}
+.lode ul li a{
+	color:#c9c9c9;
+	padding-left:35px;
+}
+.lode ul li a:hover{
+	color:#00c968;
+}
+
+
+
+@media(max-width: 1900px){
+	.lode_con .lode ul li{
+		margin-left: 5%;
+		width: 14%;
+	}
+}
+@media(max-width: 1670px){
+	.lode_con .lode ul li{
+		width: 15%;
+		margin-left: 4%;
+	}
+}
+@media(max-width: 1570px){
+	.lode_con .lode ul li{
+		width: 16%;
+		margin-left: 3%;
+	}
+}
+@media(max-width: 1445px){
+	.lode_con .lode ul li{
+		width: 17%;
+		margin-left: 2%;
+	}
+}
+@media(max-width: 1400px){
+	.lode_con .lode ul li{
+		width: 17.5%;
+		margin: 0 1.2% 0 1.2%;
+	}
+	.lode_con .lode ul li img{
+		width: 80%;
+		height: 80%;
+	}
+	.lode_con .lode ul li a,.lode_con .lode ul li span{
+		padding-left:26px;
+	}
+}
+@media(max-width: 1265px){
+	.lode_con .lode ul li a,.lode_con .lode ul li span{
+		padding-left:22px;
+	}
+}

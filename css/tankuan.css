@@ -1,0 +1,287 @@
+.tan_o,.tan,.tan_delete,.tan_yulan{
+	width: 369px;
+	height: 250px;
+	border-radius: 10px;
+	text-align: center;
+	position: absolute;
+	background: #fff; 
+	z-index: 1001; 
+	display: none;
+}
+.tan_o p,.tan p,.tan_delete p,.tan_yulan p{
+	width: 250px;
+	font-size:16px;
+	color:#666;
+	padding:20px 0 25px 60px;
+	line-height: 30px;
+}
+.kuan_btn{
+	border-top: 1px solid #e5e5e5;
+}
+.kuan_btn .mid_line{
+	border-right:1px solid #e5e5e5;
+	height: 52px;
+}
+.kuan_btn .btnCancel{
+	color:#999;
+	padding:15px 75px 0 75px;
+}
+.kuan_btn .btnSure{
+	color:#34c9b2;
+	padding:15px 57px 0 57px;
+}
+
+/*下载 预览 购买*/
+.tan_lode,.tan_view,.tan_money,.tan_mima{
+	width: 500px;
+	border-radius: 10px;
+	position: absolute;
+	background: #fff; 
+	z-index: 1001; 
+	border:1px solid #00c968;
+}
+
+.tan_lode .title_style,.tan_view .title_style,.tan_money .title_style,.tan_mima .title_style{
+	line-height: 50px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background: #00c968;
+	color:#fff;
+}
+.tan_lode ul{
+	padding:0 0 20px 20px;
+}
+
+.tan_lode ul li{
+	overflow: hidden;
+	padding-top:22px;
+}
+.tan_lode ul li span{
+	text-align: left;
+	color:#666;
+	line-height: 36px;
+}
+.tan_lode ul li:first-child a{
+	float: left;
+	padding:10px 12px;
+	color:#999;
+	border:1px solid #d2d2d2;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+.tan_lode ul li:nth-child(2) a{
+	float: left;
+	padding:5px 0 0 10px;
+}
+.iColorPicker{
+  height: 34px; 
+  width:260px; 
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555; 
+  background-color: #fff; 
+  background-image: none; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  margin-left: 12px;
+  float: left;
+}
+.tan_lode ul .bg_xz  a{
+	border:none;
+}
+.tan_lode ul li .file {
+    position: relative;
+    display: inline-block;
+    background: #08a6ed;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 10px 30px;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    color:#fff;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+
+.bom_btn,.view_bom{
+	background: #f5f4f4;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.bom_btn .mid_line{
+	border-right:1px solid #e5e5e5;
+	height: 62px;
+}
+.bom_btn .btnCancel{
+	color:#fff;
+	padding:8px 30px;
+	background: #d2d2d2;
+	border-radius:5px;
+	margin:3% 15% 2% 15%;
+}
+.bom_btn .btnSure{
+	color:#fff;
+	padding:8px 30px;
+	background: #00c968;
+	border-radius:5px;
+	margin:3% 15% 2% 15%;
+}
+/*预览*/
+.tan_view{
+	text-align: center;
+}
+.tan_view .img_bor{
+	border:5px solid #89c997;
+	width: 160px;
+	height: 160px;
+	position: relative;
+	left: 50%;
+	margin:35px 0 20px 0;
+	margin-left: -80px;
+}
+.tan_view .img_bor img{
+	width: 100%;
+}
+.view_bom .btnCancel{
+	color:#fff;
+	line-height: 55px;
+	color:#999;
+	position: relative;
+	left: 50%;
+	margin-left: -15px;
+}
+.view_bom .btnCancel:hover{
+	color:#00c968;
+}
+/*购买*/
+.tan_money ul,.tan_mima ul{
+	padding:0 0 30px 20px;
+}
+.tan_money ul li,.tan_mima ul li{
+	overflow: hidden;
+	padding-top:24px;
+}
+.tan_money ul li span,.tan_mima ul li span{
+	text-align: right;
+	width: 80px;
+	line-height: 36px;
+}
+.styled-select select{
+   background: transparent;
+   width: 336px;
+   padding: 7px 7px 7px 16px;
+   border: 1px solid #d5d5d5;
+   height: 36px;
+   outline: none;
+   border-radius: 5px;
+   -webkit-appearance: none; /*for chrome*/
+}
+.styled-select {
+   width: 340px;
+   height: 36px;
+   overflow: hidden;
+   background: url(../img/xialaa.png) no-repeat 95%;
+}
+.styled-select select option{
+	line-height: 30px;
+	border:1px solid #d5d5d5;
+	border-radius: 5px;
+}
+.styled-money input{
+	width: 313px;
+	height: 22px;
+	padding: 7px 7px 7px 16px;
+	border: 1px solid #d5d5d5;
+	background: url(../img/xialaa.png) no-repeat 95%;
+	outline: none;
+    border-radius: 5px;
+    -webkit-appearance: none; /*for chrome*/
+}
+
+/*企业实名认证*/
+.canel{
+	width: 369px;
+	line-height: 50px;
+	border-top:1px solid #e5e5e5;
+	text-align: center;
+	display:inline-block;
+	color:#999;
+}
+/*修改密码*/
+.styled-mima input{
+	width: 313px;
+	height: 22px;
+	padding: 7px 7px 7px 16px;
+	border: 1px solid #d5d5d5;
+	outline: none;
+    border-radius: 5px;
+    -webkit-appearance: none; /*for chrome*/
+}
+.textarea_style{
+	width: 313px;
+	height: 100px;
+	padding:10px 0 0 20px;
+	border:1px solid #d5d5d5;
+	border-radius: 5px;
+	resize: none;
+	outline: none;
+	font-size:14px;
+	line-height: 20px;
+	color:#666;
+}
+
+.mycheck {  
+    width: 15px;  
+    position: relative;  
+}  
+.mycheck input[type=checkbox] {  
+    visibility: hidden;  
+}  
+.mycheck label {  
+    cursor: pointer;  
+    position: absolute;  
+    width: 15px;  
+    height: 15px;  
+    top: 0;  
+    left: 0;  
+    background: #fff;  
+    border:2px solid #ccc;  
+    -moz-border-radius: 3px;      /* Gecko browsers */  
+    -webkit-border-radius: 3px;   /* Webkit browsers */  
+    border-radius:3px;            /* W3C syntax */  
+}  
+.mycheck label:after {  
+    opacity: 0;  
+    content: '';  
+    position: absolute;  
+    width: 9px;  
+    height: 5px;  
+    background:transparent;  
+    top: 3px;  
+    left: 2px;
+    color:#00c968;  
+    border: 2px solid #333;  
+    border-top: none;  
+    border-right: none;  
+    -webkit-transform: rotate(-45deg);  
+    -moz-transform: rotate(-45deg);  
+    -o-transform: rotate(-45deg);  
+    -ms-transform: rotate(-45deg);  
+    transform: rotate(-45deg);  
+}  
+.mycheck label:hover::after {  
+ opacity: 0.5;  
+}  
+.mycheck input[type=checkbox]:checked + label:after {  
+    opacity: 1;  
+}  
